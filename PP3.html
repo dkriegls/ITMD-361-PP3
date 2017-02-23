@@ -27,5 +27,23 @@
 							<option value="65 and Over">65 and Over</option>
 						</select>
 			</fieldset>
+			
+			<fieldset id="avail">
+				<legend>Availability</legend>
+					<label>Days Available: </label>
+						<label>Sunday<input type="checkbox" name="available_field[]" value="Sunday"></label>
+						<label>Monday<input type="checkbox" name="available_field[]" value="Monday"></label>
+						<label>Tuesday<input type="checkbox" name="available_field[]" value="Tuesday"></label>
+						<label>Wednesday<input type="checkbox" name="available_field[]" value="Wednesday"></label>
+						<label>Thursday<input type="checkbox" name="available_field[]" value="Thursday"></label>
+						<label>Friday<input type="checkbox" name="available_field[]" value="Friday"></label>
+						<label>Saturday<input type="checkbox" name="available_field[]" value="Saturday"></label>
+					<label>Comments: </label>
+						<textarea rows="6" cols="60" name="comments_field"></textarea>
+					<input type="hidden" name="hidden_field" value="ttobiass">
+			</fieldset>
+			
+			<input type="submit" value="Submit Form">
+		</form>
 	</body>
 </html>
